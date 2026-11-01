@@ -1,0 +1,65 @@
+﻿Warning: Could not access fileat C:\Users\dylan\AppData\Local\mongodb\mongosh\6ae6d0d7512f687dfffe3d90_log: EPERM: operation not permitted, open 'C:\Users\dylan\AppData\Local\mongodb\mongosh\6ae6d0d7512f687dfffe3d90_log'
+CREATE
+{
+  acknowledged: true,
+  insertedId: 'listenbrainz:prueba:crud:v1',
+  matchedCount: 0,
+  modifiedCount: 0,
+  upsertedCount: 1
+}
+READ: usuario, artista y canción con proyección y límite
+[
+  {
+    user_name: 'usuario_prueba_crud',
+    track_metadata: {
+      track_name: 'Canción de prueba CRUD',
+      artist_name: 'Artista de prueba CRUD'
+    }
+  }
+]
+[
+  {
+    user_name: 'usuario_prueba_crud',
+    track_metadata: {
+      track_name: 'Canción de prueba CRUD',
+      artist_name: 'Artista de prueba CRUD'
+    }
+  }
+]
+[
+  {
+    user_name: 'usuario_prueba_crud',
+    track_metadata: {
+      track_name: 'Canción de prueba CRUD',
+      artist_name: 'Artista de prueba CRUD'
+    }
+  }
+]
+UPDATE
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+{
+  _id: 'listenbrainz:prueba:crud:v1',
+  user_name: 'usuario_prueba_crud',
+  es_prueba: true,
+  timestamp: 1793511640,
+  track_metadata: {
+    track_name: 'Canción actualizada CRUD',
+    artist_name: 'Artista actualizado CRUD'
+  }
+}
+DELETE
+{
+  acknowledged: true,
+  deletedCount: 1
+}
+{
+  totalAntes: 50000,
+  totalDespues: 50000,
+  pruebaEliminada: true
+}

@@ -1,0 +1,21 @@
+﻿Evidencia de inserción por lotes
+Fecha de revisión: 1 de noviembre de 2026, America/Lima.
+
+Información histórica proporcionada por el autor:
+50 000 documentos insertados con importar.py en 50 lotes de 1 000; cero inválidos.
+No se recibió ni se recreó el registro original de esa ejecución.
+
+Comprobaciones actuales de solo lectura:
+El JSONL localizado tiene 50 000 registros válidos y cero inválidos.
+La colección contiene 50 000 documentos.
+La comparación de contenido y multiplicidad con el JSONL encontró cero originales faltantes.
+Véase verificacion.txt.
+
+Implementación revisada:
+Lectura línea por línea; lote máximo de 1 000 documentos.
+SHA-256 del contenido completo sin _id y contadores de ocurrencias.
+Omisión de ocurrencias ya presentes e identificadores deterministas para nuevas ocurrencias.
+No se ejecutó importar.py ni se hizo una nueva carga.
+La idempotencia de escritura y la recuperación de errores no fueron probadas mediante importación real.
+Para acreditar la ejecución histórica, adjuntar la captura o transcripción original si existe.
+

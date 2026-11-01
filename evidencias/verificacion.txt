@@ -1,0 +1,79 @@
+Documentos: 50000
+Documento real:
+{
+  "_id": {
+    "$oid": "6ae6ccbea5fc8a9f21d7311f"
+  },
+  "user_id": 86100,
+  "user_name": "Xizonic",
+  "timestamp": 1793318246,
+  "track_metadata": {
+    "track_name": "Only",
+    "artist_name": "NF & Sasha Sloan",
+    "release_name": "The Search",
+    "additional_info": {
+      "duration_ms": 225470,
+      "tracknumber": 9,
+      "artist_mbids": [
+        "5660a8c7-d0d9-4181-89b4-8e125328e31e",
+        "98c09f94-10b5-426c-b27a-44345bb54528"
+      ],
+      "artist_names": [
+        "NF",
+        "Sasha Sloan"
+      ],
+      "release_mbid": "03bc250e-6dbf-4e31-a7bd-8db7bc90bfa1",
+      "recording_mbid": "537eb6d1-083e-48da-a782-78d0183afd45",
+      "submission_client": "navidrome",
+      "release_group_mbid": "af51e21c-b3b8-4d78-8137-4446640fb3a5",
+      "submission_client_version": "0.64.2 (10114574)"
+    }
+  },
+  "recording_msid": "14000594-d193-4959-b590-37fa67449096"
+}
+Índices:
+[
+  {
+    "v": 2,
+    "key": {
+      "_id": 1
+    },
+    "name": "_id_"
+  },
+  {
+    "v": 2,
+    "key": {
+      "user_name": 1
+    },
+    "name": "user_name_1"
+  },
+  {
+    "v": 2,
+    "key": {
+      "track_metadata.artist_name": 1
+    },
+    "name": "track_metadata.artist_name_1"
+  },
+  {
+    "v": 2,
+    "key": {
+      "timestamp": -1
+    },
+    "name": "timestamp_-1"
+  }
+]
+Usuarios únicos: 1935
+Documentos de prueba: 0
+Dataset válidos: 50000 | Inválidos: 0 | Originales faltantes: 0
+Resumen de validación:
+conexion: CORRECTO
+base_existe: CORRECTO
+coleccion_existe: CORRECTO
+al_menos_50000: CORRECTO
+indice_user_name: CORRECTO
+indice_track_metadata.artist_name: CORRECTO
+indice_timestamp: CORRECTO
+sin_pruebas: CORRECTO
+dataset_unico: CORRECTO
+dataset_50000_validos: CORRECTO
+originales_conservados: CORRECTO
