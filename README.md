@@ -1,6 +1,6 @@
 ﻿Aquí tienes el contenido listo para copiar y pegar en tu archivo `README.md` de GitHub.
 
-# 🎵 ListenBrainz — Módulo MongoDB
+# 🎵 ListenBrainz-MongoDB — Módulo MongoDB
 
 ## 📌 Descripción del proyecto
 
