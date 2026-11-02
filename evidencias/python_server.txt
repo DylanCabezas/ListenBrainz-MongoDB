@@ -1,0 +1,16 @@
+INFO:     127.0.0.1:53160 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "POST /listens HTTP/1.1" 201 Created
+INFO:     127.0.0.1:53162 - "GET /listens/6ae7e31174702e948685bcae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "PATCH /listens/6ae7e31174702e948685bcae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "DELETE /listens/6ae7e31174702e948685bcae HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53162 - "GET /listens/6ae7e31174702e948685bcae HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53162 - "POST /listens HTTP/1.1" 201 Created
+INFO:     127.0.0.1:53162 - "GET /listens/6ae7e31174702e948685bcaf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "PATCH /listens/6ae7e31174702e948685bcaf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "DELETE /listens/6ae7e31174702e948685bcaf HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53162 - "GET /listens/6ae7e31174702e948685bcaf HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53162 - "POST /listens HTTP/1.1" 201 Created
+INFO:     127.0.0.1:53162 - "GET /listens/6ae7e31174702e948685bcb0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "PATCH /listens/6ae7e31174702e948685bcb0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "DELETE /listens/6ae7e31174702e948685bcb0 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53162 - "GET /listens/6ae7e31174702e948685bcb0 HTTP/1.1" 404 Not Found

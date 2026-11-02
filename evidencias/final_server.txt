@@ -1,0 +1,20 @@
+INFO:     Started server process [23584]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:53946 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53955 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "POST /listens HTTP/1.1" 201 Created
+INFO:     127.0.0.1:53956 - "GET /listens/6ae801921c3b5a2a6bb2d65b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "PATCH /listens/6ae801921c3b5a2a6bb2d65b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "DELETE /listens/6ae801921c3b5a2a6bb2d65b HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53956 - "GET /listens/6ae801921c3b5a2a6bb2d65b HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53956 - "POST /listens HTTP/1.1" 201 Created
+INFO:     127.0.0.1:53956 - "GET /listens/6ae801921c3b5a2a6bb2d65c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "PATCH /listens/6ae801921c3b5a2a6bb2d65c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "DELETE /listens/6ae801921c3b5a2a6bb2d65c HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53956 - "GET /listens/6ae801921c3b5a2a6bb2d65c HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53956 - "POST /listens HTTP/1.1" 201 Created
+INFO:     127.0.0.1:53956 - "GET /listens/6ae801921c3b5a2a6bb2d65d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "PATCH /listens/6ae801921c3b5a2a6bb2d65d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "DELETE /listens/6ae801921c3b5a2a6bb2d65d HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53956 - "GET /listens/6ae801921c3b5a2a6bb2d65d HTTP/1.1" 404 Not Found

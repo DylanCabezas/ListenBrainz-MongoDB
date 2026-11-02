@@ -6,3 +6,7 @@ data/
 __pycache__/
 *.pyc
 .env
+.pytest_cache/
+*.sqlite3
+*.sqlite3-journal
+*.errors.jsonl
