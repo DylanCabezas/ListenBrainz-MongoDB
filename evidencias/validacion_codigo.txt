@@ -1,3 +1,0 @@
-﻿importar.py: sintaxis Python 3.12 correcta, sin comentarios ni docstrings
-verificar.py: sintaxis Python 3.12 correcta, sin comentarios ni docstrings
-JavaScript: los tres scripts ejecutados en mongosh. CRUD repetido correctamente. Revisión de comentarios JavaScript: sin coincidencias. Archivos guardados en UTF-8; rutas resueltas con pathlib y comandos PowerShell.

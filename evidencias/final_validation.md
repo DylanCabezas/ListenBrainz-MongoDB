@@ -1,12 +1,8 @@
 # Validación final del módulo MongoDB
 
-Resultado: **12 pruebas aprobadas**, 25 550 usuarios únicos y cero originales faltantes o modificados. La carga insertó 3 950 000 reproducciones y reconoció las 50 000 existentes, sin líneas inválidas.
+Fecha de verificación: 2026-11-02T01:35:15.466633-05:00.
 
-Las cuatro consultas verificadas usaron IXSCAN sin hint. Claves/documentos examinados: recientes 20/20, usuario 5/5, artista 2/2 y cursor 20/20. Tiempos de esta ejecución local: 3, 3, 1 y 13 ms, respectivamente; estos tiempos corresponden a consultas limitadas, no a las agregaciones completas.
-
-Fecha de verificación: 2026-11-01T22:23:38.093942-05:00.
-
-- Colección real: **4 000 000 reproducciones**, antes y después de las pruebas.
+- Colección real: **4,000,001 reproducciones**, antes y después de las pruebas.
 - Pruebas automatizadas, incluida integración MongoDB: aprobadas; salida en `final_tests.txt`.
 - Tres rondas CRUD sobre un servidor HTTP temporal: aprobadas; salida en `final_http_crud.txt`.
 - Los 50 000 originales se verificaron por identificador, contenido y multiplicidad; salida en `final_originals.txt`.

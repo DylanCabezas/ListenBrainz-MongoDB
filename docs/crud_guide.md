@@ -12,7 +12,7 @@ El CRUD es una API que permanece disponible mientras el servidor FastAPI esté e
 
 ## Demostración en Swagger
 
-Iniciar con `.\.venv\Scripts\python.exe -m scripts.run_api --reload` y abrir http://127.0.0.1:8000/docs.
+Iniciar con `./.venv/Scripts/python.exe main.py --reload` y abrir http://127.0.0.1:8000/docs.
 
 ### Crear dos reproducciones
 

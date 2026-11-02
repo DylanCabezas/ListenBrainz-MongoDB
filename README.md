@@ -150,4 +150,4 @@ Para verificar índices o consultar estadísticas desde Python:
 ./.venv/Scripts/python.exe -m scripts.queries
 ```
 
-`importar.py` y `verificar.py` mantienen los comandos anteriores. El JavaScript antiguo está archivado en `legacy/mongodb/` y no se utiliza para ejecutar la API.
+El código principal está en `app/`. `main.py` inicia la API y `scripts/` contiene las herramientas de apoyo. Las evidencias finales y el registro de importación se conservan en `evidencias/`.

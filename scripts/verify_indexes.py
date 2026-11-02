@@ -22,7 +22,7 @@ def main():
                 "find": collection.name, "filter": query,
                 "sort": {"timestamp": -1, "_id": -1}, "limit": 20,
             }, verbosity="executionStats")
-            winning = json.dumps(plan["queryPlanner"]["winningPlan"])
+            winning = json.dumps(plan["queryPlanner"]["winningPlan"], default=str)
             statistics = plan["executionStats"]
             result = {"filter": query, "uses_index": "IXSCAN" in winning,
                       "n_returned": statistics["nReturned"],
